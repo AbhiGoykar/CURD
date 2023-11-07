@@ -1,10 +1,3 @@
-npx create-react-app dynamic-table
-cd dynamic-table
-npm install -g json-server
-mkdir db
-cd db
-touch db.json
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
