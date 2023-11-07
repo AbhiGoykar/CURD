@@ -1,0 +1,40 @@
+npx create-react-app dynamic-table
+cd dynamic-table
+npm install -g json-server
+mkdir db
+cd db
+touch db.json
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dynamic Table</h1>
+    
+    <button id="addRow">Add Row</button>
+    
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>CGPA</th>
+                <th>Location</th>
+                <th>Action</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be added dynamically here -->
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
